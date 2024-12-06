@@ -8,7 +8,7 @@ import ProductDetails from "./components/ProductDetail";
 const App = () => (
   <Router>
     <Routes>
-      <Route path="/login" element={<Login />} />
+      <Route path="/" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/products" element={<ProductListing />} />
       <Route path="/products/:id" element={<ProductDetails />} />
